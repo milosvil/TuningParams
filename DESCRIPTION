@@ -1,0 +1,21 @@
+Package: TuningParams
+Type: Package
+Title: RStudio Addin for Inserting Tuning Parameters Code
+Version: 0.1.0
+Authors@R: person("Milos", "Vilotic", email = "milos.vilotic@gmail.com",
+                  role = c("aut", "cre"))
+Maintainer: Milos Vilotic <milos.vilotic@gmail.com>
+Description: Addin extracts tuning parameters from model_spec, recipe and workflow class objects.
+Imports:
+    dplyr,
+    dials,
+    purrr,
+    rlang,
+    rstudioapi,
+    stringr
+License: MIT + file LICENSE
+URL: https://github.com/milosvil/TuningParams
+BugReports: https://github.com/milosvil/TuningParams/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

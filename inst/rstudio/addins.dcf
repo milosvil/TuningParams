@@ -1,0 +1,4 @@
+Name: Update Tuning Parameters | tidymodels
+Description: Addin extracts tuning parameters from model_spec, recipe and workflow class objects.
+Binding: tune_params
+Interactive: false
